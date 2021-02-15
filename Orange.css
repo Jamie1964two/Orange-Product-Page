@@ -1,0 +1,97 @@
+body, input, button{
+  font-family: 'Londrina Solid', cursive;
+}
+
+label { font-size:1.3em;}
+
+header{
+  position:fixed;
+  top:0px;
+  left:0px;
+  background:white;
+  width:100%;
+  z-index:3;
+    border: solid 1px black;
+}
+
+#imagediv {
+  margin: auto;
+  width:auto;
+}
+
+#header-img {
+  display: block;
+  margin: auto;
+}
+
+#nav-bar{
+
+}
+
+#navlinksbox {  
+  display:flex;
+  justify-content: center;  
+}
+
+.nav-link {
+  border: solid 2px black;
+  border-radius: 4px;
+  margin: 20px;
+  padding: 8px;
+  background-image: linear-gradient(#777, #555);
+  color: orange;
+  text-decoration: none;
+}
+
+
+
+.col-2{
+  margin:30px;
+  flex: 1 1 450px;
+}
+
+.flexcontent{
+  display:flex;
+  position: relative;
+  top:200px;
+  flex-wrap:wrap;
+justify-content: center;
+}
+
+
+#video{
+  margin:20px;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 50%;}
+  .col-2 {width: 50%;}
+}
+
+#submit {
+    font-size: 1.3em;
+    margin-left: 10px;
+}
+
+#email {
+    font-size: 1.3em;
+}
+
+#order {
+    text-align: center;
+    display: inline-block;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
